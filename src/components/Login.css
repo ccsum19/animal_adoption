@@ -1,0 +1,28 @@
+#login{
+    margin: auto;
+    width: 40%;
+    background-color:  #7b7068;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+}
+#login h1{
+    color: #fffefd;
+}
+
+.submit-btn{
+	color: rgb(28, 8, 0);
+	box-shadow: 5px 5px 5px rgba(82, 76, 65, 0.348);
+    width: 160px;
+    height: 40px;
+}
+
+.submit-btn:hover {
+	background-color:  rgb(255, 231, 202);
+	color: #67503a;
+	box-shadow: 5px 5px 5px rgba(48, 42, 30, 0.348);
+	text-shadow: none;
+}
+
+#login input{
+    width: 50%;
+}

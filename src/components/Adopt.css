@@ -1,0 +1,19 @@
+.adopt{
+    font-family: 'Dosis', sans-serif;
+    color: rgb(77, 62, 42);
+    padding:1% 5% 2% 5%;
+    display: block;
+    line-height: 0.7;
+    margin: 0 auto;
+    background-color: rgba(255, 249, 240, 0.91);
+}
+
+.adopt-title{
+    color:rgb(72, 42, 7);
+    font-family: 'Oswald', sans-serif;
+}
+
+.adopt-content{
+    text-align: right;
+    font-size: small;
+}

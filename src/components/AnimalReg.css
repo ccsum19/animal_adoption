@@ -1,0 +1,82 @@
+.popup {
+    background-color: rgba(255, 249, 240, 0.91);
+    margin: 0 auto;
+    padding: 3% 5% 5% 3%;
+    color: rgb(49, 36, 26);
+    width: 100%;
+  }
+
+.popup h1{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(155, 116, 69);
+  }
+
+.popup input{
+    font-family: 'Roboto', sans-serif;
+    width: auto;
+    height: 30px;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #e6dbcf;
+    text-align: center;
+}
+
+.popup label{
+    font-family: 'Oswald', sans-serif;
+    margin-right: 10px;
+
+}
+
+#description{
+    height: 100px;
+    width: 80%;
+    overflow: scroll;
+    margin-bottom: 30px;
+}
+
+#image{
+    border-radius: 0px;
+    height: auto;
+    background-color: rgba(255, 249, 240, 0.91);
+}
+
+.submit-pet {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 20px 18px 18px 10px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  height: 60px;
+  display: block;
+  margin: auto;
+}
+
+.submit-pet:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.submit-pet:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .submit-pet {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}

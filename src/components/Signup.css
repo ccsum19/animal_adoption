@@ -1,0 +1,25 @@
+#signup{
+    margin: auto;
+    width: 40%;
+    background-color:  #fffbf8;
+    border: dashed rgb(138, 108, 101);
+    text-align: center;
+}
+
+.submit-btn{
+	color: rgb(28, 8, 0);
+	box-shadow: 5px 5px 5px rgba(82, 76, 65, 0.348);
+    width: 160px;
+    height: 40px;
+}
+
+.submit-btn:hover {
+	background-color:  rgb(90, 70, 45);
+	color: #fff1e4;
+	box-shadow: 5px 5px 5px rgba(48, 42, 30, 0.348);
+	text-shadow: none;
+}
+
+#signup input{
+    width: 50%;
+}

@@ -1,0 +1,21 @@
+.bottom{
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    background-color:#a79f96;
+    color: white;
+    filter:brightness(80%);
+    opacity: 0.9;
+    padding-bottom: 15px;
+    line-height: 0.5;
+  }
+  
+  .bottom-headers{
+    display: flex;
+    justify-content: space-around;
+    color: #E9E3CB
+  }
+  
+  .bottom-para{
+    display: flex;
+    justify-content: space-around;
+  }
